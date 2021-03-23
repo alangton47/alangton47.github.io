@@ -1,0 +1,226 @@
+body {
+    background-color: #dddddd;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+header img {
+    width: 100%;
+}
+
+header {
+    padding: 50px;
+    background-color: #fff;
+}
+
+nav {
+    background-color: white;
+    padding: 25px 30px;
+    text-align: center;
+}
+
+#spring nav,
+#spring footer {
+    background-color: lightpink;
+}
+
+#spring nav a:hover {
+    background-color: white;
+    color: pink;
+}
+
+#spring section h1,
+#spring section h2 {
+    color: white;
+    font-family: Verdana;
+    font-size: 180%;
+}
+
+#spring section {
+    padding: 1% 4%;
+    overflow: auto;
+    background-color: lightpink;
+    color: white;
+}
+
+#summer nav,
+#summer footer {
+    background-color: lightgreen;
+}
+
+#summer nav a:hover {
+    background-color: white;
+    color: lightgreen;
+}
+
+#summer section h1,
+#summer section h2 {
+    color: white;
+    font-family: Verdana;
+    font-size: 180%;
+}
+
+#summer section {
+    padding: 1% 4%;
+    overflow: auto;
+    background-color: lightgreen;
+    color: white;
+}
+
+#autumn nav,
+#autumn footer {
+    background-color: lightsalmon;
+}
+
+#autumn nav a:hover {
+    background-color: white;
+    color: lightsalmon;
+}
+
+#autumn section h1,
+#autumn section h2 {
+    color: white;
+    font-family: Verdana;
+    font-size: 180%;
+}
+
+#autumn section {
+    padding: 1% 4%;
+    overflow: auto;
+    background-color: lightsalmon;
+    color: white;
+}
+
+#winter nav,
+#winter footer {
+    background-color: lightblue;
+}
+
+#winter nav a:hover {
+    background-color: white;
+    color: lightblue;
+}
+
+#winter section h1,
+#winter section h2 {
+    color: white;
+    font-family: Verdana;
+    font-size: 180%;
+}
+
+#winter section {
+    padding: 1% 4%;
+    overflow: auto;
+    background-color: lightblue;
+    color: white;
+}
+
+nav a {
+    color: white;
+    font-family: Verdana, sans-serif;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+nav li {
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 1% 4%;
+    overflow: auto;
+    text-align: center;
+}
+
+section h1,
+section h2 {
+    color: black;
+    font-family: Verdana;
+    font-size: 180%;
+}
+
+section h2 {
+    color: black;
+    font-size: 140%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.earth {
+    padding: 25px;
+    width: 30%;
+    float: center;
+}
+
+.spring2 {
+    padding: 25px;
+    width: 50%;
+    float: center;
+}
+
+.summer2 {
+    padding: 25px;
+    width: 30%;
+    float: center;
+    width: 50%;
+}
+
+.autumn2 {
+    padding: 25px;
+    width: 40%;
+    float: center;
+}
+
+.winter2 {
+    padding: 25px;
+    width: 50%;
+    float: center;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: lightpink
+    }
+
+    30% {
+        background-color: lightgreen
+    }
+
+    60% {
+        background-color: lightsalmon
+    }
+
+    90% {
+        background-color: lightblue
+    }
+
+    100% {
+        background-color: #CBC3E3
+    }
+}
+
+#home nav,
+#home footer {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
