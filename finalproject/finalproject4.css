@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body {
+    background-color: #dddddd;
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #fff;
+    font-size: 100%;
+}
+
+header img {
+    width: 100%;
+}
+
+header {
+    padding: 40px;
+    background-color: white;
+}
+
+nav {
+    background-color: #beae99;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    font-family: 'EB Garamond', serif;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 175%;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #beae99;
+}
+
+nav li {
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 1% 4%;
+    overflow: auto;
+    font-size: 125%;
+    text-align: center;
+}
+
+section h1,
+section h2 {
+    color: #beae99;
+    font-family: 'EB Garamond', serif;
+    font-size: 125%;
+    text-align: center;
+}
+
+footer {
+    background-color: #beae99;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.cannonbeachlogo {
+    width: 30%;
+    float: none;
+    padding: 10px;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    margin: 5%;
+    height: 0;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
